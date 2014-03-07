@@ -1,0 +1,73 @@
+/* Common */
+
+a{
+	color: #87a5c9;
+}
+
+
+html {
+	height: 100%;
+}
+
+/* Slides window */
+
+body{
+	overflow: hidden;
+	background-color: #000;
+	color: #fff;
+	-webkit-text-shadow: 0px 0px 4px #000;
+	-moz-text-shadow: 0px 0px 4px #000;
+	text-shadow: 0px 0px 4px #000;
+	background: -moz-linear-gradient(top,  #4c4c4c 0%, #000000 0%, #595959 0%, #1c1c1c 100%, #111111 100%, #2b2b2b 100%, #2c2c2c 100%, #131313 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top,  #4c4c4c 0%,#000000 0%,#595959 0%,#1c1c1c 100%,#111111 100%,#2b2b2b 100%,#2c2c2c 100%,#131313 100%) 0% 0% no-repeat; /* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(top,  #4c4c4c 0%,#000000 0%,#595959 0%,#1c1c1c 100%,#111111 100%,#2b2b2b 100%,#2c2c2c 100%,#131313 100%); /* IE10+ */
+	background: linear-gradient(top,  #4c4c4c 0%,#000000 0%,#595959 0%,#1c1c1c 100%,#111111 100%,#2b2b2b 100%,#2c2c2c 100%,#131313 100%); /* W3C */
+		
+}
+
+body, p {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Droid Sans', sans-serif;
+	text-align: center;
+}
+
+#slide {
+	text-align: center;
+	vertical-align: middle;
+	height: 90%;
+	width: 90%;
+}
+
+#slide h2 {
+	margin: 1em;
+}
+
+#slide p {
+	margin: 0.5em;
+}
+
+#slide img{
+	-webkit-box-shadow: 0px 0px 4px #000;
+	-moz-box-shadow: 0px 0px 4px #000;
+	box-shadow: 0px 0px 4px #000;
+	background-color: #fff;
+}
+
+#slide pre {
+	text-align: left;
+	font-family: Monaco, monospace;
+	padding: 0 40px;
+}
+
+#slide ul {
+/* 	list-style: none; */
+	text-align: left;
+}
+
+#slide li {
+	margin: 0.5em;
+}
